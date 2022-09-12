@@ -41,6 +41,7 @@ As a user of the application,you will be able to :
 - Open the index file from the zipped file with any browser.
 
 ### Links to Deployment
+https://ephemeral-meringue-761d7c.netlify.app - frontend
 
 
 MIT License
