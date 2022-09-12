@@ -1,19 +1,13 @@
 .navbar {
-    /* font-size: 2.5rem; */
+    font-size: 1.5rem;
     margin-right: 50px;
     text-align: justify;
     justify-content: space-between;
-    /* width: auto; */
-    /* position: fixed; */
     display: flex;
     align-items: center;
-    /* text-decoration: none; */
-    /* list-style: none; */
-    /* background-color: var(--mainColor); */
+    background-color: 	#E5E4E2;
     width: 100vw;
-    /* float: none; */
     height:80px ;
     margin-top: -20px;
     font-weight: bold;
-    /* vertical-align: top; */
 }

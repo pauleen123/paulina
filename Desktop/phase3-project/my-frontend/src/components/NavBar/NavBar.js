@@ -8,6 +8,7 @@ function NavBar ()
 {
     return(
     <div className='navbar'>
+       <span className="nav-logo">Fundi Finder</span>
       <h3 className='head'> </h3>
 
       <NavLink  to='/' >Home</NavLink>
@@ -15,6 +16,8 @@ function NavBar ()
       <NavLink  to='/about'>About</NavLink>
 
       <NavLink to='/fundi'>Fundi</NavLink>
+
+      <NavLink to='/ratings'>Ratings</NavLink>
     </div>
 )};
 export default NavBar;
