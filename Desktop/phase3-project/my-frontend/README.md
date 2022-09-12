@@ -42,8 +42,6 @@ As a user of the application,you will be able to :
 
 ### Links to Deployment
 
-https://mathematrixx.herokuapp.com/
-https://mathematrixx2.herokuapp.com/puns
 
 MIT License
 
