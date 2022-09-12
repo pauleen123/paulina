@@ -1,6 +1,6 @@
 import React from 'react'
 import {useEffect, useState} from "react";
-import './components/Comment.js'
+// import '/src/components/Comment.js'
 
 const Fundi = () => {
   const [Fundi, setFundi] = useState([])
@@ -14,25 +14,26 @@ const Fundi = () => {
     },[])
     console.log(Fundi)
 
-    const allComments = Fundi.map((fundi)=>{
-      return( <Comment  key={fundi.id}
-        name={fundi.name}
-        location ={fundi.location}
-        body = {fundi.ratings.map(rating => {
-            return rating.body     
-        })}
-         user = {fundi.ratings.map(rating => {
-            return rating.user.name
+    // const allComments = Fundi.map((fundi)=>{
+    // //   return( <Comment  key={fundi.id}
+    //     name={fundi.name}
+    //     location ={fundi.location}
+    //     body = {fundi.ratings.map(rating => {
+    //         return rating.body     
+    //     })}
+    //      user = {fundi.ratings.map(rating => {
+    //         return rating.user.name
 
-         })}
+    //      })}
 
-        />)
-    })
-    return(
-    <>
-    <div className="allCommnets">
-    {allComments}
-    </div>
-    </>
-    )}
+    //     />)
+    // })
+    // return(
+    // <>
+    // <div className="allCommnets">
+    // {allComments}
+    // </div>
+    // </>
+    // )
+}
 export default Fundi
