@@ -1,0 +1,19 @@
+.navbar {
+    /* font-size: 2.5rem; */
+    margin-right: 50px;
+    text-align: justify;
+    justify-content: space-between;
+    /* width: auto; */
+    /* position: fixed; */
+    display: flex;
+    align-items: center;
+    /* text-decoration: none; */
+    /* list-style: none; */
+    /* background-color: var(--mainColor); */
+    width: 100vw;
+    /* float: none; */
+    height:80px ;
+    margin-top: -20px;
+    font-weight: bold;
+    /* vertical-align: top; */
+}
