@@ -1,7 +1,6 @@
 import React from 'react'
-// import Comment from '../Comment/Comment'
 import {useEffect, useState} from "react";
-
+import './components/Comment.js'
 
 const Fundi = () => {
   const [Fundi, setFundi] = useState([])
@@ -19,11 +18,11 @@ const Fundi = () => {
       return( <Comment  key={fundi.id}
         name={fundi.name}
         location ={fundi.location}
-        body = {fundi.ratings.map(review => {
-            return review.body     
+        body = {fundi.ratings.map(rating => {
+            return rating.body     
         })}
-         user = {restaurant.reviews.map(review => {
-            return review.user.name
+         user = {fundi.ratings.map(rating => {
+            return rating.user.name
 
          })}
 
@@ -35,12 +34,5 @@ const Fundi = () => {
     {allComments}
     </div>
     </>
-    )
-  
-
-
-
-  
-}
-
-export default Restuarants
+    )}
+export default Fundi
